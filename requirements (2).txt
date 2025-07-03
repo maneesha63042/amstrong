@@ -1,0 +1,15 @@
+write a program to calculate the factorial and power of given numbers by creating the nted loop ith in loo whare a=5 b=6 calculate the factorial or a calculate power for 5**
+num=int(input("enter the number:"))
+t=num
+n=len(str(num))
+s=0
+while t!=0:
+    d=t%10
+    s+=d**n
+    t//=10
+print("latest value of s",s)
+print("latest value of t",t)    
+if s==num:
+    print(num,"is amstrong number:")
+else:
+    print(num,"is not amstrong number:")
